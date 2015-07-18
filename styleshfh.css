@@ -1,0 +1,127 @@
+
+/* 14 October 2014 */
+
+td {                             /* by default, all TDs have padding */
+padding: 10px 10px 10px 10px;
+}
+
+.shadow {                        /* all shadowing uses same color */
+box-shadow: 8px 8px 8px #336677;
+}
+
+a:link {
+color: #112299;                  /* 112299 idling link */
+/* background-color: #ccffff;    ccffff - keep this commented out !! */
+font-size: 16px;
+text-decoration: none;
+}
+
+a:hover {
+color: #eeffff;                  /* eeffff mouseOVER */
+background-color: #1111ff;       /* 1111ff */
+font-size: 16px;
+text-decoration: none;
+}
+
+a:visited {
+color: #111199;                  /* mouseOVER IF it has been visited */
+background-color: #aaccff;       /* aaccff  mouseover, mousedown, slide off but this color remains */
+font-size: 16px;
+text-decoration: none;
+}
+
+a:active {
+color: #eeffff;                  /* mouseDOWN visited or not */
+background-color: #74e5e5;       /* 6688ff  mouseover, mousedown, slide off but this color remains  */
+font-size: 16px;
+text-decoration: none;
+}
+
+body {
+background-color: #f8fff8;
+color: #114466;
+font-size : 100%;
+font-family : arial, helvetica, sans-serif;
+width: 90%;
+margin: auto;}
+
+.menu {
+color: #f00;
+background-color: #eeffff;
+font-size: 100%;
+font-family: arial, helvetica, sans-serif;
+}
+
+.copyright {
+font-size: 60%;
+font-family: arial, helvetica, sans-serif;
+color: #008;
+background: transparent;
+}
+
+.font0 {                       
+font-size: 80%;
+font-family: arial, helvetica, sans-serif;
+color: #008;
+background: #ffffff;
+}
+
+.title {
+font-size: 100%;
+font-family: arial, helvetica, sans-serif;
+color: #00f;
+text-align: center;
+background-color: #99ffff;
+}
+
+htitle {
+font-size: 130%;
+color: #1111cc;
+font-family: Georgia, "Times New Roman", Times, serif;
+background-color: transparent;
+}
+
+h1 {
+font-size: 260%;
+color: #005588;
+font-family: Georgia, "Times New Roman", Times, serif;
+text-align: center;
+background-color: transparent;
+}
+
+h2 {
+font-size: 150%;
+color: #1111cc;
+font-weight: bold;
+font-family: Arial, helvetica, sans-serif;
+background-color: transparent;
+}
+
+h3 {
+color: #1111cc;
+font-size: 100%;
+background-color: transparent;
+}
+
+h4 {
+color: #111199;
+font-size: 80%;
+font-weight: normal;
+background-color: transparent;
+}
+
+.ruler1 {                      
+height:2px;
+width:500px;
+color:#0000ff;
+background-color: transparent;
+}
+
+.ruler2 {                      
+height: 2px;
+width: 500px;
+color: #ff0000;
+background-color: transparent;
+}
+
+

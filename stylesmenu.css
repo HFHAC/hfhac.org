@@ -1,0 +1,272 @@
+/* THIS IS THE MENU CSS FILE - 16 OCT 14 */
+
+/* id=some     uses  #some   */
+/* class=some  uses  .some   */
+
+
+
+
+#navigation {
+line-height: 1em;
+display: block;
+width: 200px;
+margin: 0px;                  /* 0 margin around outside of level 1 */
+padding: 0px;                 /* 0 padding around outside of level 1 */
+list-style: none;
+/* color: #146; */                  /* 146 was 1f1   -   not working - idling main text */
+font: 100% arial, sans-seriff;
+font-weight: bold;
+box-shadow: 4px 4px 4px 4px rgba(90, 120, 160, 1);    /* level 1 shadow */
+border-radius: 5px;           /* 1px - level 1 shadow radius */
+}
+
+#navigation2 {
+line-height: 1em;
+display: block;
+width: 200px;
+margin: 0;
+padding: 0;
+list-style: none;
+/* color: #146; */                  /* was 1f1   -   not working - idling main text */
+font: 100% arial, sans-seriff;
+font-weight: bold;
+box-shadow: 4px 4px 4px 4px rgba(90, 120, 160, 1);    /* level 1 shadow */
+border-radius: 5px;           /* 1px - level 1 shadow radius */
+}
+
+
+
+
+
+
+
+#navigation > li {            /* main idling */ 
+line-height: 1.5em;           /* 1.5 - needed for main cell height */ 
+display: block;
+width: 100%;
+-moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+-webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+box-shadow: inset 0 -2px 3px rgba(0, 0, 0, 0.15);
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #eeffff), color-stop(1, #88ccff));
+background-image: -webkit-linear-gradient(left, #eefee 0%, #00cccc 100%);
+background-image: -moz-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -ms-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -o-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: linear-gradient(to left, #ffffff 0%, #00cccc 100%);
+border-radius: 5px;
+z-index: 511;
+}
+
+#navigation2 > li {            /* main idling */ 
+line-height: 1.5em;            /* 1.5   -   needed for main cell height */ 
+display: block;
+width: 100%;
+-moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+-webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.15);
+box-shadow: inset 0 -2px 3px rgba(0, 0, 0, 0.15);
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #eeffff), color-stop(1, #88ccff));
+background-image: -webkit-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -moz-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -ms-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -o-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: linear-gradient(to left, #ffffff 0%, #00cccc 100%);
+border-radius: 5px;
+z-index: 511;
+}
+
+
+
+
+#navigation > li > a {
+display: block;
+padding: 6px;                /* 10px padding on main, idling, prior to mouseover*/
+font-weight: bold;
+color: #146;                  /* 146 level 1 idling text */
+text-decoration: none;
+}
+
+#navigation2 > li > a {
+display: block;
+padding: 6px;                /* padding on main */
+font-weight: bold;
+color: #146;                  /* idling main text */
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+#navigation > li > a:hover {  /* main when mouseover */
+/* background: #1f1; */             /* acf  background */
+color: #11f;                  /* 11f main text */
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #eeffff), color-stop(1, #88ccff));
+background-image: -webkit-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -moz-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -ms-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -o-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: linear-gradient(to right, #ffffff 0%, #00cccc 100%);
+}
+
+#navigation2 > li > a:hover {  /* main when mouseover */
+/* background: #acf; */             /* background */
+color: #11f;                  /* main text */
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #eeffff), color-stop(1, #88ccff));
+background-image: -webkit-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -moz-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -ms-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -o-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: linear-gradient(to right, #ffffff 0%, #00cccc 100%);
+}
+
+
+
+
+
+
+#navigation > li.sub {
+position: relative;
+}
+
+#navigation2 > li.sub {
+position: relative;
+}
+
+
+
+
+#navigation > li.sub ul {     /* level 2 when mouseover main */
+margin: 0;
+padding: 0px;                 /* 0px */
+width: 200px;                 /* was 15em; */
+list-style: none;
+font: 100% arial, sans-seriff;
+/* background: #cef; */             /* cef  level 2 background when mouseover main */
+color: #11f;                  /* 11f */
+position: absolute;
+left: -1000em;
+box-shadow: 4px 4px 4px 4px rgba(90, 120, 160, 1);    /* level 2 shadow */
+border-radius: 5px;           /* level 2 foreground and shadow radius */
+}
+
+#navigation2 > li.sub ul {    /* level 2 when mouseover main */
+margin: 0;
+padding: 0px;                 /* 0px padding around outside of flyout */
+width: 200px;                 /* was 15em; */
+list-style: none;
+font: 100% arial, sans-seriff;
+/* background: #cef; */            /* level 2 background when mouseover main */
+color: #11f;
+position: absolute;
+left: -1000em;
+box-shadow: 4px 4px 4px 4px rgba(90, 120, 160, 1);    /* level 2 shadow */
+border-radius: 5px;          /* level 2 foreground and shadow radius */
+}
+
+
+
+
+
+
+
+#navigation > li.sub ul li {
+display: block;
+width: 100%;                 /* 100 - width of level 2 flyout */
+line-height: 1.5em;          /* 1.5em level 2 height */
+}
+
+#navigation2 > li.sub ul li {
+display: block;
+width: 100%;
+line-height: 1.5em;          /* level 2 height */
+}
+
+
+
+
+
+
+
+#navigation > li.sub ul li a {  /* level 2 text */
+height: 100%;
+display: block;
+color: #146;                  /* 11f level 2 text when mouseover 1*/
+font-size: 100%;
+font-weight: bold;
+text-decoration: none;
+padding: 6px;                /* 10px level 2 padding */
+background: #cef;
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #eeffff), color-stop(1, #88ccff));
+background-image: -webkit-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -moz-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -ms-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -o-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: linear-gradient(to left, #ffffff 0%, #00cccc 100%);
+}
+
+#navigation2 > li.sub ul li a {  /* sub when mouseover main */
+height: 100%;
+display: block;
+color: #146;                  /* 11f level 2 mouseover text */
+font-size: 100%;
+font-weight: bold;
+text-decoration: none;
+padding: 6px;                /* level 2 padding */
+background: #cef;
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #eeffff), color-stop(1, #88ccff));
+background-image: -webkit-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -moz-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -ms-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -o-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: linear-gradient(to left, #ffffff 0%, #00cccc 100%);
+}
+
+
+
+
+
+
+#navigation > li.sub ul li a:hover {
+background: #9cf;             /* 9cf  level2 background when level 2 mouseover*/
+color: #11f;                  /* 11f  level 2 text when level 2 mouseover */
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #eeffff), color-stop(1, #88ccff));
+background-image: -webkit-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -moz-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -ms-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -o-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: linear-gradient(to right, #ffffff 0%, #00cccc 100%);
+}
+
+#navigation2 > li.sub ul li a:hover {
+background: #9cf;             /* 9cf  level2 background when mouseover*/
+color: #11f;                  /* level 2 text when level 2 mouseover */
+background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #eeffff), color-stop(1, #88ccff));
+background-image: -webkit-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -moz-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -ms-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: -o-linear-gradient(left, #ffffff 0%, #00cccc 100%);
+background-image: linear-gradient(to right, #ffffff 0%, #00cccc 100%);
+}
+
+
+
+
+#navigation > li.sub:hover ul {
+top: 0;
+left: 200px;                  /* was 15em; */
+}
+
+#navigation2 > li.sub:hover ul {
+top: 0;
+left: 200px;                  /* was 15em; */
+}
+
+
+
+
+
