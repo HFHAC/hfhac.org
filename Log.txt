@@ -1,0 +1,5 @@
+Created this log file on July 17, 2015 - JimT
+
+Added Home option to 404 page - July 17 JimT
+Modified homepage to put images on right side - July 18 JimT
+Set up Blank1 page with Home button on left and text on right - July 20 JimT
