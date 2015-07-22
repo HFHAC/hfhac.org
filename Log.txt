@@ -2,4 +2,7 @@ Created this log file on July 17, 2015 - JimT
 
 Added Home option to 404 page - July 17 JimT
 Modified homepage to put images on right side - July 18 JimT
-Set up Blank1 page with Home button on left and text on right - July 20 JimT
+Set up Blank-1 page with Home button on left and text on right - July 20 JimT
+Fixed tel: links in index, applicationprocess, and opportunies.html. - July 21, 00:46 JoeL
+Set up Blank-2 page with Home button left, text in middl and image(s) on right. - July 22 JimT
+Changed the HEADER in index.html to add ReStore address and phone number. - July 22, 18:33 JoeL
