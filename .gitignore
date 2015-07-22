@@ -1,0 +1,6 @@
+# Unneeded directories
+Honcho1/
+cgi-bin/
+
+# Unneeded files
+blank*.html
