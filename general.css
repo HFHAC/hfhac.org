@@ -1,0 +1,17 @@
+/* DEBUG table borders */
+table, th, td {
+	border: 1px solid black;
+}
+
+/* Body of the text */
+body {
+	width: 90%;
+	margin: auto;
+}
+
+img.banner {
+	/* Center horizontally */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

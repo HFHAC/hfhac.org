@@ -1,0 +1,58 @@
+/*
+ * naviation_bar.css
+ *
+ * PURPOSE:
+ * Define the layout elements of the generic naviation bar
+ */
+
+/* DEBUG table borders */
+table {
+	border-collapse: collapse;
+}
+
+/* Table formatting */
+table, th, td {
+	border: 1px solid black;
+}
+table.navigation  {
+	width: 100%;
+}
+th.navigation, td.navigation {
+	width: 20%;
+	text-align: center;
+}
+
+/* Hyperlinks */
+a:link.navigation {
+	color: #0000000;
+	text-decoration: none;
+}
+a:visited.navigation {
+	color: #0000000;
+	text-decoration: none;
+}
+a:hover.navigation {
+	color: #FF00000;
+	text-decoration: none;
+}
+a:active.navigation {
+	color: #FF00000;
+	text-decoration: none;
+}
+
+/* Individual cells */
+#Mission {
+	background: #000000;
+}
+#Donate {
+
+}
+#ReStore {
+
+}
+#Volunteer {
+
+}
+#Contact {
+
+}
