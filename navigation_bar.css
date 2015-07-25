@@ -17,42 +17,49 @@ table, th, td {
 table.navigation  {
 	width: 100%;
 }
-th.navigation, td.navigation {
+.navigation th, .navigation td {
 	width: 20%;
+	height: 100%:
+	text-align: center;
+}
+.navigation th a, .navigation td a {
+	display: block;
+	width: 100%;
+	height: 100%;
 	text-align: center;
 }
 
 /* Hyperlinks */
-a:link.navigation {
+.navigation a:link {
 	color: #0000000;
 	text-decoration: none;
 }
-a:visited.navigation {
+.navigation a:visited {
 	color: #0000000;
 	text-decoration: none;
 }
-a:hover.navigation {
+.navigation a:hover {
 	color: #FF00000;
 	text-decoration: none;
 }
-a:active.navigation {
+.navigation a:active {
 	color: #FF00000;
 	text-decoration: none;
 }
 
 /* Individual cells */
-#Mission {
-	background: #000000;
+#Mission:hover {
+	background: #007B63;
 }
-#Donate {
+#Donate:hover {
 
 }
-#ReStore {
+#ReStore:hover {
 
 }
-#Volunteer {
+#Volunteer:hover {
 
 }
-#Contact {
+#Contact:hover {
 
 }
