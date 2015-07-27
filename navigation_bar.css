@@ -31,19 +31,19 @@ table.navigation  {
 
 /* Hyperlinks */
 .navigation a:link {
-	color: #0000000;
+	color: #000000;
 	text-decoration: none;
 }
 .navigation a:visited {
-	color: #0000000;
+	color: #000000;
 	text-decoration: none;
 }
 .navigation a:hover {
-	color: #FF00000;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 .navigation a:active {
-	color: #FF00000;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
@@ -52,14 +52,15 @@ table.navigation  {
 	background: #007B63;
 }
 #Donate:hover {
-
+	background: #DC241F;
 }
 #ReStore:hover {
-
+	background: #F1AB00;
 }
 #Volunteer:hover {
-
+	background: #9A3416;
 }
 #Contact:hover {
+	background: #4A207E
 
 }
