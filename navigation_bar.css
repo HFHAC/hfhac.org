@@ -8,7 +8,6 @@
 ul.navigation {
 	list-style-type: none;
 	width: 100%;
-	height: 750px;
 	margin: 0;
 	padding: 0;
 }
@@ -58,5 +57,4 @@ ul.navigation {
 }
 #Contact:hover {
 	background: #4A207E
-
 }
