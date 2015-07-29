@@ -1,37 +1,14 @@
-@media only screen and (max-width: 500px) {
-	body {
-	background-color: lightblue;
-	}
-}
-
 * {
 	/* Include padding/border in total width/height of elements */
 	box-sizing: border-box;
 }
 
- /* For mobile phones: */
+/* For mobile phones */
 [class*="col-"] {
 	width: 100%;
 }
 
-
-/* For tablets: */
-@media only screen and (min-width: 600px) {
-	.col-m-1 {width: 8.33%;}
-	.col-m-2 {width: 16.66%;}
-	.col-m-3 {width: 25%;}
-	.col-m-4 {width: 33.33%;}
-	.col-m-5 {width: 41.66%;}
-	.col-m-6 {width: 50%;}
-	.col-m-7 {width: 58.33%;}
-	.col-m-8 {width: 66.66%;}
-	.col-m-9 {width: 75%;}
-	.col-m-10 {width: 83.33%;}
-	.col-m-11 {width: 91.66%;}
-	.col-m-12 {width: 100%;}
-}
-
-/* For desktop: */
+/* For desktop */
 @media only screen and (min-width: 768px) {
 	.col-1 {width: 8.33%;}
 	.col-2 {width: 16.66%;}
@@ -47,44 +24,30 @@
 	.col-12 {width: 100%;}
 }
 
-/* Apply to all columns */
-[class*="col-"] {
-	float: left;
+html {
+	font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+	background-color: #9933cc;
+	color: #ffffff;
 	padding: 15px;
-	border: 1px solid red;
 }
 
-/* Clear the flow so that other elements respect columns */
-.row:after {
-	content: "";
-	clear: both;
-	display: block;
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
 }
 
-div.header {
-	position: fixed;
-	top: 0px;
-	margin: auto;
-	width: 100%;
-	height: 10em;
+.menu li {
+	padding: 8px;
+	margin-bottom: 7px;
+	background-color :#33b5e5;
+	color: #ffffff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-div.bottom_bar {
-	position: static;
-	margin: auto;
-	width: 100%;
-	height: 10em;
-}
-
-/* Body of the text */
-body {
-	position: float;
-	margin-top: 10em;
-}
-
-img.banner {
-	/* Center horizontally */
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.menu li:hover {
+	background-color: #0099cc;
 }
