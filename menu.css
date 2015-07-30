@@ -1,0 +1,60 @@
+/*
+ * naviation_bar.css
+ *
+ * PURPOSE:
+ * Define the layout elements of the generic naviation bar
+ */
+
+ul.navigation {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation li {
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+.navigation a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+/* Hyperlinks */
+.navigation a:link {
+	color: #000000;
+	text-decoration: none;
+}
+.navigation a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.navigation a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Individual cells */
+#Mission:hover {
+	background: #007B63;
+}
+#Donate:hover {
+	background: #DC241F;
+}
+#ReStore:hover {
+	background: #F1AB00;
+}
+#Volunteer:hover {
+	background: #9A3416;
+}
+#Contact:hover {
+	background: #4A207E
+}
