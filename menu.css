@@ -47,11 +47,11 @@ ul.menu {
 
 @media only screen and (min-width: 539px) {
 	ul.menu {
-		height: 3em;
+		height: 2em;
 	}
 
 	.menu a {
-		line-height: 3em;	/* Same as ul */
+		line-height: 2em;	/* Same as ul */
 	}
 
 	.menu li {
