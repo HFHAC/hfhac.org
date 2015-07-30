@@ -2,592 +2,437 @@
 
 <html lang="en">
 <head>
-   <title>HFHAC - The ReStore</title>
-   <meta charset="UTF-8">
-   <meta name="keywords" content="Habitat for Humanity, Anderson County">
-   <meta name="author" content="Jim Tonne">
-   <meta name="generator" content="NotePad++">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="rating" content="general">
-   <link rel="icon" href="favicon.ico"><!-- primary css: -->
-   <link rel="stylesheet" href="./styleshfh.css" type="text/css">
-   <!-- menu css: -->
-   <link rel="stylesheet" href="./stylesmenu.css" type="text/css">
-   <!-- local css: -->
+	<title>HFHAC - The ReStore</title>
+	<link rel="icon" href="favicon.ico">
 
-   <style type="text/css">
+	<!-- Metadata -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="descript" content="ReStore of Habitat for Humanity of Anderson County">
+	<meta name="author" content="Jim Tonne">
+	<meta name="author" content="Joseph M LaFreniere">
+	<meta name="source code" content="https://github.com/lafrenierejm/hfhac.org">
+	<meta name="keywords" content="HTML,CSS">
+	<meta name="rating" content="general">
 
-   body {
-   background-color: #f8fff8;
-   color: #113344;
-   width: 90%;
-   margin: auto;}
-
-   h1 {
-   text-shadow: 4px 4px 8px #005588;}
-
-   h2 {
-   text-align: center;
-   color: #ff0000;}   
-
-   p {
-   text-align: left;}
-
-   table.center {
-   background-color: #f8fff8;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   width: 90%;}
-
-   table.border {
-   background-color: #f8fff8;
-   border: 2px solid #6688ff;
-   border-radius: 10px;
-   margin-left: auto;
-   margin-right: auto;}
-
-   table.main {
-   background-color: #f8fff8;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;}
-
-   table.green {
-   background-color: #aaffaa;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;}
-
-   td {
-   text-align: left;}
-
-   td.top {
-   text-align: center;
-   vertical-align: top;}
-
-   td.one {
-   width: 100px;}
-
-   td.two {
-   background-color: #f8fff8;
-   width: 220px;}
-
-   td.three {
-   background-color: #f8fff8;
-   width: 330px;}
-
-   td.four {
-   background-color: #f8fff8;
-   width: 440px;}
-
-   tr.odd {
-   background-color: #dff;}
-   tr.even {
-   background-color: #cef;}
-
-   </style>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="general.css" type="text/css">
+	<link rel="stylesheet" href="menu.css" type="text/css">
 </head>
 
 <body>
-   <!-- HEADER: -->
+	<!-- Banner -->
+	<div class="header">
+		<h1>ReStore</h1>
+	</div>
 
-   <table class="center">
-      <tr>
-         <td class="top">
-            <img src="images/1-logobig.jpg" alt="HFH AC"><br>
+	<!-- Navigation -->
+	<ul class="menu">
+		<li id="Mission"><a href="mission.html">Mission</a></li>
+		<li id="Donate"><a href="donate.html">Donate</a></li>
+		<li id="ReStore"><a href="restore.html">ReStore</a></li>
+		<li id="Volunteer"><a href="volunteerpaperwork.html">Volunteer</a></li>
+		<li id="Contact"><a href="contactus.html">Contact Us</a></li>
+	</ul>
+	
+	<div class="row">
+		<!-- BODY -->
+		<div class="col-6" class="overview">
+			<p><b>The Habitat ReStore</b> is a resale store that
+			accepts donations of new and gently used home furnishings, building supplies, and other household items. Those items are then sold at 10-50% of their retail prices.</p>
+			<p> Profits from The Habitat ReStore are used by Humanity of Anderson County to fund building projects, creating housing for low-income families in need.</p>
+		</div>
 
-            <h1>The ReStore</h1>
-         </td>
-      </tr>
-   </table>
+		<div class="col-3">
+			<table>
+				<td colspan="2"><b>ReStore hours:</b><br></td>
 
-   <table class="main">
-      <tr>
-         <!-- MENU ON LEFT: -->
+				<tr class="odd">
+					<td>Monday</td>
+					<td>Closed</td>
+				</tr>
 
-         <td class="top three">
-            <br>
-            <br>
+				<tr class="even">
+					<td>Tuesday</td>
+					<td>10 AM - 6 PM</td>
+				</tr>
 
-            <ul id="navigation">
-               <li>
-                  <a href="donate.html">Donate</a>
-               </li>
+				<tr class="odd">
+					<td>Wednesday</td>
+					<td>10 AM - 6 PM</td>
+				</tr>
 
-               <li>
-                  <a href="index.html">Home</a>
-               </li>
-            </ul><br>
+				<tr class="even">
+					<td>Thursday</td>
+					<td>10 AM - 6 PM</td>
+				</tr>
 
-            <table>
-               <tr>
-                  <td>
-                     <table class="green">
-                        <!-- main"> -->
+				<tr class="odd">
+					<td>Friday</td>
+					<td>10 AM - 6 PM</td>
+				</tr>
 
-                        <tr>
-                           <td colspan="2"><b>ReStore hours:</b><br></td>
-                        </tr>
+				<tr class="even">
+					<td>Saturday</td>
+					<td>10 AM - 2 PM </td>
+				</tr>
+
+				<tr class="odd">
+					<td>Sunday</td>
+					<td>Closed</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="col-3" class="location">
+			<b>ReStore location</b><br>
+			105 Randolph Road in Oak Ridge, behind the new Kroger's Marketplace
+		</div>
+
+		<div class="col-3" class="phone">
+			<b>ReStore phone:</b><br>
+			<a href="tel:1-865-483-5433">(865) 483-5433</a></td>
+			If you have items that are too big to drop off yourself, call us to schedule a pick up!<br>
+			Pick ups are typically on Tuesdays and Saturdays, but other arranements may be made.
+		</div>
+
+		<div class="col-3" class="email">
+			<b>ReStore email:</b><br>
+			<a href="mailto:restore@hfhac.org">restore@hfhac.org</a>
+		</div>
+		
+		</div class="col-12">
+			<p><b>Items accepted</b></p>
+
+			<p>Appliances</p>
+
+			<ul>
+			<li>Items 7 years old or less, in good working order
+			with no repairs needed.</li>
+
+			<li>Ranges (freestanding ONLY)</li>
+
+			<li>Ovens (freestanding)</li>
+
+			<li>Range hoods</li>
+
+			<li>Washers/dryers</li>
+
+			<li>Refrigerators</li>
+
+			<li>Microwave ovens</li>
+			</ul>
+
+			<p>Architectural Items</p>
+
+			<ul>
+			<li>Columns</li>
+
+			<li>Mantels</li>
+
+			<li>Antique windows</li>
+
+			<li>Porch posts</li>
+			</ul>
+
+			<p>Cabinets/Countertops</p>
+
+			<ul>
+			<li>Individual pieces or full cabinet sets (kitchen or
+			bathroom). Cabinets must have all doors and drawers and
+			must be in good condition. Countertops must be in good
+			condition with minimal chips or damage. Countertops
+			must be like new.</li>
+			</ul>
+
+			<p>Doors</p>
+
+			<ul>
+			<li>Pre-hung or door slabs no taller than 84”, free of
+			rot and cracks, all panes intact.</li>
+
+			<li>Exterior/interior</li>
+
+			<li>Entryway units</li>
+
+			<li>Sliding glass - must have all tracking, no cracked
+			or fogged glass</li>
+			</ul>
+
+			<p>Electrical</p>
+
+			<ul>
+			<li>Wire, plugs, plates, and hardware associated with
+			electrical wiring. Residential items preferred. Needs
+			to be sorted by type or part.</li>
+			</ul>
+
+			<p>Electronics</p>
+
+			<ul>
+			<li>Working equipment only.</li>
+
+			<li>Television sets (must be less than 5 years
+			old)</li>
+
+			<li>DVD and VHS players and/or recorders</li>
+
+			<li>Audio-receivers, speakers, CD players</li>
+
+			<li>Stereo equipment</li>
+			</ul>
+
+			<p>Flooring Materials</p>
+
+			<ul>
+			<li>Carpet - new or “gently-used” and clean with no
+			visible stains or odors</li>
+
+			<li>Carpet padding - new and clean with no visible
+			stains or odors</li>
+
+			<li>Hardwood/parquet flooring - free from rot and in
+			usable quantities (25 sq. ft or more)</li>
+
+			<li>Vinyl tile - undamaged</li>
+
+			<li>Ceramic tile - undamaged</li>
+
+			<li>Sheet vinyl/linoleum - any quantity of new
+			material, rolled, taped, and measured</li>
+			</ul>
+
+			<p>Furniture</p>
+
+			<ul>
+			<li>Only pieces in good condition - no rips, tears,
+			broken parts, or odors. No mattresses or box
+			springs.</li>
+			</ul>
+
+			<p>Hardware</p>
+
+			<ul>
+			<li>In usable, working condition, free from rust.</li>
+
+			<li>Complete sets of door hardware, hinges, etc.</li>
+
+			<li>Any quantity of nails, screws, hangers, connectors,
+			etc.</li>
+			</ul>
+
+			<p>Insulation</p>
+
+			<ul>
+			<li>New only</li>
+			</ul>
+
+			<p>Light Fixtures</p>
+
+			<ul>
+			<li>Complete and in good working order</li>
+			</ul>
+
+			<p>Lumber (framing, trim, pressure treated)</p>
+
+			<ul>
+			<li>Must be free of rot and insects.</li>
+
+			<li>Plywood - full, ½, 1/4 sheets</li>
+
+			<li>Milled lumber - 4' lengths or greater</li>
+
+			<li>Trim - 4' lengths or greater</li>
+
+			<li>Siding - full lengths</li>
+			</ul>
+
+			<p>Masonry</p>
+
+			<ul>
+			<li>Whole, intact and in good condition</li>
+
+			<li>Cinderblock</li>
+
+			<li>Bricks</li>
+			</ul>
+
+			<p>Office Materials</p>
+
+			<ul>
+			<li>Office supplies - folders, binders, letter trays,
+			desk organizers, etc.</li>
+
+			<li>Office furniture</li>
+
+			<li>Small working office equipment</li>
+			</ul>
+
+			<p>Paint</p>
+
+			<ul>
+			<li>Sealed, non-rusted cans of latex paint or stain.
+			Color must be identified. No used paint cans.</li>
+			</ul>
+
+			<p>Plumbing</p>
+
+			<ul>
+			<li>Sinks - all types, no rust, no cracks, no chips, no
+			stains</li>
+
+			<li>Bathtubs - new or used, good condition, clean, no
+			stains, no chips</li>
+
+			<li>Shower enclosures - all components</li>
+
+			<li>Pipe - PVC, metal, copper; 4' lengths or
+			greater</li>
+
+			<li>Pipe supplies and fittings - any type</li>
+
+			<li>Faucets(new only)</li>
+
+			<li>Miscellaneous plumbing hardware</li>
+			</ul>
+
+			<p>Roofing Materials/Gutters</p>
+
+			<ul>
+			<li>New shingles, full bundles</li>
+
+			<li>Rolls of roofing material - 1/2 roll minimum</li>
+
+			<li>Roofing gutter materials in full pieces with no
+			rust or damage</li>
+			</ul>
+
+			<p>Sheetrock/Wallboard/Drywall</p>
+
+			<ul>
+			<li>4' lengths and greater.</li>
+			</ul>
+
+			<p>Shutters</p>
+
+			<ul>
+			<li>Interior and exterior</li>
+			</ul>
+
+			<p>Storm Doors and Windows</p>
+
+			<ul>
+			<li>Must have all windows and screens and all tracking
+			or framing. No single pane windows.</li>
+			</ul>
+
+			<p>Tools</p>
+
+			<ul>
+			<li>Hand or power tools in any working condition - will
+			sell as is.</li>
+			</ul>
+
+			<p>Vents</p>
+
+			<ul>
+			<li>Floor, ceiling, and return. Must be clean and in
+			good condition.</li>
+			</ul>
+
+			<p>Vinyl Siding</p>
+
+			<ul>
+			<li>Only full, or almost full bundles or packages.</li>
+			</ul>
+
+			<p>Wallpaper</p>
+
+			<ul>
+			<li>Full, unopened rolls only.</li>
+			</ul>
+
+			<p>Windows/Screens</p>
+
+			<ul>
+			<li>Double pane minimum - no single pane. Must be in
+			good condition, glass intact. Wooden windows must be
+			free from rot. Must be in complete units with all
+			sashes. All windows must be inspected before
+			acceptance. Metal and wood screens in good
+			condition.</li>
+			</ul>
+
+			<p>Miscellaneous Items</p>
+
+			<ul>
+			<li>New blinds</li>
+
+			<li>Books</li>
+
+			<li>Art work</li>
+
+			<li>Entertainment items (DVD’s, CD’s, VHS tapes, vinyl
+			records, etc.)</li>
+
+			<li>Fans - in working condition</li>
+
+			<li>HVAC and AC units</li>
+
+			<li>Household items/housewares (dishes, pots, pans,
+			etc.)</li>
+
+			<li>Mirrors - framed only, no cracks</li>
+
+			<li>Thermostats</li>
+
+			<li>Wood stoves - freestanding</li>
+			</ul>
+
+			<p>Items Accepted for Recycling</p>
+
+			<ul>
+			<li>Inkjet/Toner Cartridges</li>
+
+			<li>Cell Phones</li>
+		</div>
+
+		<div class="col-12">
+			<p><b>Items NOT accepted</b></p>
+
+			<ul>
+				<li>Clothing</li>
+
+				<li>Mattresses</li>
+
+				<li>Used blinds</li>
+
+				<li>Broken/unframed glass or mirrors</li>
+
+				<li>Bedding, linens, etc.</li>
+
+				<li>Faucets (used)</li>
+
+				<li>Garage doors or door openers</li>
+
+				<li>Paint thinner or other hazardous/toxic
+				chemicals</li>
+
+				<li>Pesticides (liquid or powder)</li>
+
+				<li>Used/opened paint</li>
+
+				<li>Used dishwashers</li>
+
+				<li>Used trash compactors</li>
+
+				<li>Water heaters (used)</li>
+			</ul>
+
+			<p><b>Please Note:</b> These lists are not exhaustive listings of materials that will or will not be accepted by Habitat ReStore. It will be at the discretion of Habitat ReStore manager to determine what items are accepted for resale and recycling, as well as determine what items are unacceptable.</p>
+
+			<p>All items will be priced at 10-50% of their retail value. All sales will be final except with large appliances, which will come with a seven day, money-back guarantee.</p>
 			
-			<tr class="odd">
-				<td>Monday</td>
-				<td>Closed</td>
-                        </tr>
-
-                        <tr class="even">
-                           <td>Tuesday</td>
-			   <td>10 AM - 6 PM</td>
-                        </tr>
-
-                        <tr class="odd">
-                           <td>Wednesday</td>
-                           <td>10 AM - 6 PM</td>
-                        </tr>
-
-                        <tr class="even">
-                           <td>Thursday</td>
-                           <td>10 AM - 6 PM</td>
-                        </tr>
-
-                        <tr class="odd">
-                           <td>Friday</td>
-                           <td>10 AM - 6 PM</td>
-                        </tr>
-
-                        <tr class="even">
-                           <td>Saturday</td>
-                           <td>10 AM - 2 PM </td>
-                        </tr>
-
-                        <tr class="odd">
-				<td>Sunday</td>
-				<td>Closed</td>
-                        </tr>
-
-                     </table>
-                  </td>
-               </tr>
-
-               <tr>
-                  <td><b>ReStore location:</b><br>
-                  105 Randolph Road in Oak Ridge, behind the new Kroger's
-                  Marketplace.</td>
-               </tr>
-
-               <tr>
-                  <td><b>ReStore phone:</b><br>
-			  <a href="tel:1-865-483-5433">(865) 483-5433</a></td>
-               </tr>
-
-               <tr>
-                  <td>Do you have items you would like to donate to the ReStore
-                  but they are too big for you to deliver them yourself?<br>
-                  Call us at <a href="tel:1-865-483-5433">(865) 483-5433</a> to schedule a pick up!<br>
-                  Pick ups are normally scheduled on Tuesdays and Saturdays,
-                  but please call if you have any questions or need an
-                  alternative day!<br></td>
-               </tr><!--
-               <tr>
-                  <td>
-                     <b>ReStore email:</b><br>
-                     <a href="mailto:restore@hfhac.org">restore@hfhac.org</a>
-                  </td>
-               </tr> -->
-               
-               <!-- images should be about 240px wide by about 160px tall -->
-
-               <!--
-               <tr>
-                  <td><br>
-                  <img class="shadow" src="images/blank240x160.jpg" alt=
-                  "blank"><br>
-                  <img class="shadow" src="images/blank240x160.jpg" alt=
-                  "blank"><br>
-                  <img class="shadow" src="images/blank240x160.jpg" alt=
-                  "blank"><br>
-                  <img class="shadow" src="images/blank240x160.jpg" alt=
-                  "blank"><br>
-                  <img class="shadow" src="images/blank240x160.jpg" alt=
-                  "blank"><br></td>
-               </tr>
-               -->
-               
-               <tr>
-                  <td>
-                     <hr>
-
-                     <p><b>Items NOT accepted</b></p>
-
-                     <ul>
-                        <li>Clothing</li>
-
-                        <li>Mattresses</li>
-
-                        <li>Used blinds</li>
-
-                        <li>Broken/unframed glass or mirrors</li>
-
-                        <li>Bedding, linens, etc.</li>
-
-                        <li>Faucets (used)</li>
-
-                        <li>Garage doors or door openers</li>
-
-                        <li>Paint thinner or other hazardous/toxic
-                        chemicals</li>
-
-                        <li>Pesticides (liquid or powder)</li>
-
-                        <li>Used/opened paint</li>
-
-                        <li>Used dishwashers</li>
-
-                        <li>Used trash compactors</li>
-
-                        <li>Water heaters (used)</li>
-                     </ul>
-                  </td>
-               </tr>
-
-               <tr>
-                  <td>
-                     <hr>
-
-                     <p><b>Please Note:</b> These lists are not exhaustive
-                     listings of materials that will or will not be accepted by
-                     The Habitat Home Store. It will be at the discretion of
-                     The Habitat Home Store Manager to determine what items are
-                     accepted for resale and recycling, as well as determine
-                     what items are unacceptable.</p>
-
-                     <p>All items will be priced at 10-50% of their retail
-                     value. All sales will be final except with large
-                     appliances, which will come with a 7 day money-back
-                     guarantee.</p>
-                  </td>
-               </tr>
-            </table>
-         </td><!-- AREA ON RIGHT: -->
-
-         <td class="top four">
-            <table class="main">
-               <tr>
-                  <td>
-                     <p><b>The Habitat ReStore</b> is a resale store that
-                     accepts donations of new and gently used home furnishings,
-                     building supplies, and other household items. Those items
-                     are then sold to the public at 10-50% of the normal retail
-                     price. Profits from The Habitat ReStore are then used to
-                     further the mission of Habitat for Humanity of Anderson
-                     County by helping build affordable houses for low-income
-                     families in need.</p>
-                     <hr>
-
-                     <p><b>Items accepted</b></p>
-
-                     <p>Appliances</p>
-
-                     <ul>
-                        <li>Items 7 years old or less, in good working order
-                        with no repairs needed.</li>
-
-                        <li>Ranges (freestanding ONLY)</li>
-
-                        <li>Ovens (freestanding)</li>
-
-                        <li>Range hoods</li>
-
-                        <li>Washers/dryers</li>
-
-                        <li>Refrigerators</li>
-
-                        <li>Microwave ovens</li>
-                     </ul>
-
-                     <p>Architectural Items</p>
-
-                     <ul>
-                        <li>Columns</li>
-
-                        <li>Mantels</li>
-
-                        <li>Antique windows</li>
-
-                        <li>Porch posts</li>
-                     </ul>
-
-                     <p>Cabinets/Countertops</p>
-
-                     <ul>
-                        <li>Individual pieces or full cabinet sets (kitchen or
-                        bathroom). Cabinets must have all doors and drawers and
-                        must be in good condition. Countertops must be in good
-                        condition with minimal chips or damage. Countertops
-                        must be like new.</li>
-                     </ul>
-
-                     <p>Doors</p>
-
-                     <ul>
-                        <li>Pre-hung or door slabs no taller than 84”, free of
-                        rot and cracks, all panes intact.</li>
-
-                        <li>Exterior/interior</li>
-
-                        <li>Entryway units</li>
-
-                        <li>Sliding glass - must have all tracking, no cracked
-                        or fogged glass</li>
-                     </ul>
-
-                     <p>Electrical</p>
-
-                     <ul>
-                        <li>Wire, plugs, plates, and hardware associated with
-                        electrical wiring. Residential items preferred. Needs
-                        to be sorted by type or part.</li>
-                     </ul>
-
-                     <p>Electronics</p>
-
-                     <ul>
-                        <li>Working equipment only.</li>
-
-                        <li>Television sets (must be less than 5 years
-                        old)</li>
-
-                        <li>DVD and VHS players and/or recorders</li>
-
-                        <li>Audio-receivers, speakers, CD players</li>
-
-                        <li>Stereo equipment</li>
-                     </ul>
-
-                     <p>Flooring Materials</p>
-
-                     <ul>
-                        <li>Carpet - new or “gently-used” and clean with no
-                        visible stains or odors</li>
-
-                        <li>Carpet padding - new and clean with no visible
-                        stains or odors</li>
-
-                        <li>Hardwood/parquet flooring - free from rot and in
-                        usable quantities (25 sq. ft or more)</li>
-
-                        <li>Vinyl tile - undamaged</li>
-
-                        <li>Ceramic tile - undamaged</li>
-
-                        <li>Sheet vinyl/linoleum - any quantity of new
-                        material, rolled, taped, and measured</li>
-                     </ul>
-
-                     <p>Furniture</p>
-
-                     <ul>
-                        <li>Only pieces in good condition - no rips, tears,
-                        broken parts, or odors. No mattresses or box
-                        springs.</li>
-                     </ul>
-
-                     <p>Hardware</p>
-
-                     <ul>
-                        <li>In usable, working condition, free from rust.</li>
-
-                        <li>Complete sets of door hardware, hinges, etc.</li>
-
-                        <li>Any quantity of nails, screws, hangers, connectors,
-                        etc.</li>
-                     </ul>
-
-                     <p>Insulation</p>
-
-                     <ul>
-                        <li>New only</li>
-                     </ul>
-
-                     <p>Light Fixtures</p>
-
-                     <ul>
-                        <li>Complete and in good working order</li>
-                     </ul>
-
-                     <p>Lumber (framing, trim, pressure treated)</p>
-
-                     <ul>
-                        <li>Must be free of rot and insects.</li>
-
-                        <li>Plywood - full, ½, 1/4 sheets</li>
-
-                        <li>Milled lumber - 4' lengths or greater</li>
-
-                        <li>Trim - 4' lengths or greater</li>
-
-                        <li>Siding - full lengths</li>
-                     </ul>
-
-                     <p>Masonry</p>
-
-                     <ul>
-                        <li>Whole, intact and in good condition</li>
-
-                        <li>Cinderblock</li>
-
-                        <li>Bricks</li>
-                     </ul>
-
-                     <p>Office Materials</p>
-
-                     <ul>
-                        <li>Office supplies - folders, binders, letter trays,
-                        desk organizers, etc.</li>
-
-                        <li>Office furniture</li>
-
-                        <li>Small working office equipment</li>
-                     </ul>
-
-                     <p>Paint</p>
-
-                     <ul>
-                        <li>Sealed, non-rusted cans of latex paint or stain.
-                        Color must be identified. No used paint cans.</li>
-                     </ul>
-
-                     <p>Plumbing</p>
-
-                     <ul>
-                        <li>Sinks - all types, no rust, no cracks, no chips, no
-                        stains</li>
-
-                        <li>Bathtubs - new or used, good condition, clean, no
-                        stains, no chips</li>
-
-                        <li>Shower enclosures - all components</li>
-
-                        <li>Pipe - PVC, metal, copper; 4' lengths or
-                        greater</li>
-
-                        <li>Pipe supplies and fittings - any type</li>
-
-                        <li>Faucets(new only)</li>
-
-                        <li>Miscellaneous plumbing hardware</li>
-                     </ul>
-
-                     <p>Roofing Materials/Gutters</p>
-
-                     <ul>
-                        <li>New shingles, full bundles</li>
-
-                        <li>Rolls of roofing material - 1/2 roll minimum</li>
-
-                        <li>Roofing gutter materials in full pieces with no
-                        rust or damage</li>
-                     </ul>
-
-                     <p>Sheetrock/Wallboard/Drywall</p>
-
-                     <ul>
-                        <li>4' lengths and greater.</li>
-                     </ul>
-
-                     <p>Shutters</p>
-
-                     <ul>
-                        <li>Interior and exterior</li>
-                     </ul>
-
-                     <p>Storm Doors and Windows</p>
-
-                     <ul>
-                        <li>Must have all windows and screens and all tracking
-                        or framing. No single pane windows.</li>
-                     </ul>
-
-                     <p>Tools</p>
-
-                     <ul>
-                        <li>Hand or power tools in any working condition - will
-                        sell as is.</li>
-                     </ul>
-
-                     <p>Vents</p>
-
-                     <ul>
-                        <li>Floor, ceiling, and return. Must be clean and in
-                        good condition.</li>
-                     </ul>
-
-                     <p>Vinyl Siding</p>
-
-                     <ul>
-                        <li>Only full, or almost full bundles or packages.</li>
-                     </ul>
-
-                     <p>Wallpaper</p>
-
-                     <ul>
-                        <li>Full, unopened rolls only.</li>
-                     </ul>
-
-                     <p>Windows/Screens</p>
-
-                     <ul>
-                        <li>Double pane minimum - no single pane. Must be in
-                        good condition, glass intact. Wooden windows must be
-                        free from rot. Must be in complete units with all
-                        sashes. All windows must be inspected before
-                        acceptance. Metal and wood screens in good
-                        condition.</li>
-                     </ul>
-
-                     <p>Miscellaneous Items</p>
-
-                     <ul>
-                        <li>New blinds</li>
-
-                        <li>Books</li>
-
-                        <li>Art work</li>
-
-                        <li>Entertainment items (DVD’s, CD’s, VHS tapes, vinyl
-                        records, etc.)</li>
-
-                        <li>Fans - in working condition</li>
-
-                        <li>HVAC and AC units</li>
-
-                        <li>Household items/housewares (dishes, pots, pans,
-                        etc.)</li>
-
-                        <li>Mirrors - framed only, no cracks</li>
-
-                        <li>Thermostats</li>
-
-                        <li>Wood stoves - freestanding</li>
-                     </ul>
-
-                     <p>Items Accepted for Recycling</p>
-
-                     <ul>
-                        <li>Inkjet/Toner Cartridges</li>
-
-                        <li>Cell Phones</li>
-
-                        <li>Aluminum Cans</li>
-                     </ul>
-                  </td>
-               </tr>
-            </table>
-         </td>
-      </tr>
-   </table><br>
-   <br>
-   <br>
-   <!-- stats --><!-- [ some day! ] -->
-</body>
+		</div>
+	</body>
 </html>
