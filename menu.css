@@ -12,9 +12,11 @@ ul.menu {
 	overflow: hidden;
 }
 
-.menu li {
-	float: left;
-	width: 20%;
+@media only screen and (min-width: 539px) {
+	.menu li {
+		float: left;
+		width: 20%;
+	}
 }
 
 /* Hyperlinks */
