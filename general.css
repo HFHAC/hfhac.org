@@ -2,14 +2,19 @@
 	/* Include padding/border in total width/height of elements */
 	box-sizing: border-box;
 }
-
-/* For mobile phones */
-[class*="col-"] {
-	width: 100%;
+.row:after {
+	content: "";
+	clear: both;
+	display: block;
 }
 
-/* For desktop */
+/* Column widths */
+[class*="col-"] {
+	float: left;
+	width: 100%;
+}
 @media only screen and (min-width: 539px) {
+	/* For desktop */
 	.col-1 {width: 8.33%;}
 	.col-2 {width: 16.66%;}
 	.col-3 {width: 25%;}
@@ -27,6 +32,5 @@
 .header {
 	background-color: #9933cc;
 	color: #ffffff;
-	padding: 5px;
 	text-align: center;
 }
