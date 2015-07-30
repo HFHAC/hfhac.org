@@ -28,8 +28,10 @@
 	background-color: #9933cc;
 	color: #ffffff;
 	padding: 15px;
+	text-align: center;
 }
 
+/*
 .menu ul {
 	list-style-type: none;
 	margin: 0;
@@ -47,3 +49,4 @@
 .menu li:hover {
 	background-color: #0099cc;
 }
+*/

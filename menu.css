@@ -5,39 +5,30 @@
  * Define the layout elements of the generic naviation bar
  */
 
-ul.navigation {
+ul.menu {
 	list-style-type: none;
-	width: 100%;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
-.navigation li {
+.menu li {
 	float: left;
-	text-align: center;
 	width: 20%;
 }
 
-.navigation a {
-	display: block;
-	height: 100%;
-	width: 100%;
-}
-
 /* Hyperlinks */
-.navigation a:link {
+.menu a {
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+}
+.menu a:link, a:visited {
 	color: #000000;
 	text-decoration: none;
 }
-.navigation a:visited {
-	color: #000000;
-	text-decoration: none;
-}
-.navigation a:hover {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-.navigation a:active {
+.menu a:hover, a:active {
 	color: #FFFFFF;
 	text-decoration: none;
 }
