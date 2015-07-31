@@ -17,36 +17,40 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="general.css" type="text/css">
-	<link rel="stylesheet" href="menu.css" type="text/css">
+	<link rel="stylesheet" href="navigation_bar.css" type="text/css">
 	<link rel="stylesheet" href="restore.css" type="text/css">
 </head>
 
 <body>
 	<!-- Banner -->
-	<div class="header">
+	<div id="header">
+		<a class="hidden" id="Home" href="index.html">Home</a>
 		<h1>ReStore</h1>
 	</div>
 
-	<!-- Navigation -->
-	<ul class="menu">
-		<li id="Mission"><a href="mission.html">Mission</a></li>
-		<li id="Donate"><a href="donate.html">Donate</a></li>
-		<li id="ReStore"><a href="restore.html">ReStore</a></li>
-		<li id="Volunteer"><a href="volunteerpaperwork.html">Volunteer</a></li>
-		<li id="Contact"><a href="contactus.html">Contact Us</a></li>
-	</ul>
+	<!-- Navigation Bar -->
+	<div id="navigation_bar">
+		<ul>
+			<li id="Mission"><a href="mission.html">Mission</a></li>
+			<li id="Donate"><a href="donate.html">Donate</a></li>
+			<li id="ReStore"><a href="restore.html">ReStore</a></li>
+			<li id="Volunteer"><a href="volunteerpaperwork.html">Volunteer</a></li>
+			<li id="Contact"><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div>
 	
-	<div class="row">
-		<!-- BODY -->
-		<div class="col-6" class="overview">
-			<p><b>The Habitat ReStore</b> is a resale store that
-			accepts donations of new and gently used home furnishings, building supplies, and other household items. Those items are then sold at 10-50% of their retail prices.</p>
+	<div id="container">
+		<!-- overview -->
+		<div class="col-6 overview">
+			<p><b>The Habitat ReStore</b> is a resale store that accepts donations of new and gently used home furnishings, building supplies, and other household items. Those items are then sold at 10-50% of their retail prices.</p>
 			<p> Profits from The Habitat ReStore are used by Humanity of Anderson County to fund building projects, creating housing for low-income families in need.</p>
-		</div>
+		</div> <!-- /overview -->
 
-		<div class="col-3">
+		<div class="col-3" id="hours">
 			<table>
-				<td colspan="2"><b>ReStore hours:</b><br></td>
+				<tr class="table_title">
+					<td colspan="2">ReStore hours:</td>
+				</tr>
 
 				<tr class="odd">
 					<td>Monday</td>
@@ -85,24 +89,24 @@
 			</table>
 		</div>
 
-		<div class="col-3" class="location">
+		<div class="col-3 location">
 			<b>ReStore location</b><br>
 			105 Randolph Road in Oak Ridge, behind the new Kroger's Marketplace
-		</div>
+		</div> <!-- /location -->
 
-		<div class="col-3" class="phone">
+		<div class="col-3 phone">
 			<b>ReStore phone:</b><br>
-			<a href="tel:1-865-483-5433">(865) 483-5433</a></td>
+			<a href="tel:1-865-483-5433">(865) 483-5433</a><br>
 			If you have items that are too big to drop off yourself, call us to schedule a pick up!<br>
 			Pick ups are typically on Tuesdays and Saturdays, but other arranements may be made.
-		</div>
+		</div> <!-- /phone -->
 
-		<div class="col-3" class="email">
+		<div class="col-3 email">
 			<b>ReStore email:</b><br>
 			<a href="mailto:restore@hfhac.org">restore@hfhac.org</a>
-		</div>
+		</div> <!-- /email -->
 		
-		</div class="col-12">
+		<div class="col-12">
 			<p><b>Items accepted</b></p>
 
 			<p>Appliances</p>
@@ -397,9 +401,9 @@
 
 			<li>Cell Phones</li>
 			</ul>
-		</div>
+		</div> <!-- /items_accepted -->
 
-		<div class="col-12">
+		<div class="col-12" id="items_not_accepted">
 			<p><b>Items NOT accepted</b></p>
 
 			<ul>
@@ -430,13 +434,17 @@
 
 				<li>Water heaters (used)</li>
 			</ul>
-		</div>
+		</div> <!-- /items_not_accepted -->
 
-		<div class="col-12">
+		<div class="col-12" id="note_not_accepted">
 			<p><b>Please Note:</b> These lists are not exhaustive listings of materials that will or will not be accepted by Habitat ReStore. It will be at the discretion of Habitat ReStore manager to determine what items are accepted for resale and recycling, as well as determine what items are unacceptable.</p>
 
 			<p>All items will be priced at 10-50% of their retail value. All sales will be final except with large appliances, which will come with a seven day, money-back guarantee.</p>
-		</div>
-	</div>
+		</div> <!-- /note_not_accepted -->
+	</div> <!-- /container -->
+
+	<div id="footer">
+		Copyright &copy; 2015 Habitat for Humanity of Anderson County
+	</div> <!-- /footer -->
 </body>
 </html>
