@@ -1,0 +1,23 @@
+/*
+ * restore.css
+ *
+ * Define the layout elements of elements specific to restore.html
+ */
+
+/* Individual cells */
+#Mission:hover {
+	background: #007B63;
+}
+#Donate:hover {
+	background: #DC241F;
+}
+#ReStore {
+	color: #FFFFFF;
+	background: #F1AB00;
+}
+#Volunteer:hover {
+	background: #9A3416;
+}
+#Contact:hover {
+	background: #4A207E
+}
