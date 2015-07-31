@@ -4,6 +4,12 @@
 	box-sizing: border-box; /* Include padding/border in total width/height of elements */
 }
 
+/* Column widths */
+[class*="col-"] {
+	float: left;
+	width: 100%;
+}
+
 html {
 	height: 100%;
 }
@@ -39,13 +45,12 @@ body {
 	display: block;
 }
 
-/* Column widths */
-[class*="col-"] {
-	float: left;
-	width: 100%;
+.hidden {
+	display: none;
 }
+
+/* For desktop */
 @media only screen and (min-width: 540px) {
-	/* For desktop */
 	.col-1 {width: 8.33%;}
 	.col-2 {width: 16.66%;}
 	.col-3 {width: 25%;}
@@ -62,5 +67,10 @@ body {
 	#container {
 		width: 60%;
 		margin: auto;
+	}
+
+	.hidden #Home {
+		display: absolute;
+		left: 0;
 	}
 }
