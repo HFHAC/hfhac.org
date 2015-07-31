@@ -5,10 +5,13 @@
  */
 
 ul#navigation_bar {
-	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+}
+
+#navigation_bar li {
+	list-style-type: none;
 }
 
 /* Hyperlinks */
