@@ -3,8 +3,6 @@
  *
  *	Define the layout elements of the generic navigation bar
  */
-
-
 /*
  	Copyright: 2015 Habit for Humanity of Anderson County, Tennessee
 
@@ -31,26 +29,17 @@ input {
 }
 
 #drawer-toggle-label {
-	user-select: none;
-	position: ;
+	z-index: 1;
 
+	position: fixed;
+	top: 0.5em;
+	left: 0.5em;
 
-	height: 50px;
-	width: 50px;
-	display: block;
-	background: url(./images/menu.svg);
+	height: 2em;
+	width: 2em;
+
+	background-image: url(images/menu.svg);
 	background-size: cover;
-}
 
-/* Creates the "hamburger" menu icon 
-#drawer-toggle-label:before {
-	content: '';
-	display: block;
-	position: absolute;
-	height: 2px;
-	width: 24px;
-	background: #8d8d8d;
-	left: 13px;
-	top: 18px;
-	box-shadow: 0 6px 0 #8d8d8d, 0 12px 0 #8d8d8d;
-}*/
+	user-select: none;
+}
