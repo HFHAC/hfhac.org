@@ -36,25 +36,33 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="general.css" type="text/css">
-	<link rel="stylesheet" href="navigation_bar.css" type="text/css">
+	<link rel="stylesheet" href="navigation.css" type="text/css">
 </head>
 
 <body>
+	<!-- Switch for navigation drawer -->
+	<input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
+	<label for="drawer-toggle" id="drawer-toggle-label"></label>
+
+	<!-- Header bar -->
 	<header>
-		<a id="Home" class="hidden" href="index.html">Home</a>
+		<!-- Banner -->
 		<h1>Habitat for Humanity of Anderson County</h1> 
+
+		<!-- Navigation links -->
+		<nav>
+			<ul>
+				<li id="Mission"><a href="mission.html">Mission</a></li>
+				<li id="Donate"><a href="donate.html">Donate</a></li>
+				<li id="ReStore"><a href="restore.html">ReStore</a></li>
+				<li id="Volunteer"><a href="volunteerpaperwork.html">Volunteer</a></li>
+				<li id="Contact"><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
 	</header>
 
-	<nav>
-		<ul>
-			<li id="Mission"><a href="mission.html">Mission</a></li>
-			<li id="Donate"><a href="donate.html">Donate</a></li>
-			<li id="ReStore"><a href="restore.html">ReStore</a></li>
-			<li id="Volunteer"><a href="volunteerpaperwork.html">Volunteer</a></li>
-			<li id="Contact"><a href="contactus.html">Contact Us</a></li>
-		</ul>
-	</nav>
-
+	<!-- Navigation links -->
+	
 	<div id="container">
 		<div class="col-12">
 			<p>We have built over 55 houses in Anderson County, TN. With the help of our ministry, more than 220 children and adults now have decent housing.</p>
