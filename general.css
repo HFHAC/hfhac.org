@@ -21,7 +21,7 @@ body {
 	width: 100%;
 }
 
-#header {
+header {
 	width: 100%;
 
 	background-color: #9933CC;
@@ -32,7 +32,7 @@ body {
 #container {
 }
 
-#footer {
+footer {
 	display: table-row;
 	vertical-align: bottom;
 	height: 1px;
