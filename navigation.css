@@ -28,6 +28,21 @@ input {
 	display: none;
 }
 
+#drawer {
+	z-index: 0;
+
+	position: fixed;
+	top: 0;
+	left: -300px;
+
+	height: 100%;
+	width: 300px;
+
+	background: #FFFFFF;
+	color: #000000;
+}
+
+/* Style the UI element, which is the label for the checkbox */
 #drawer-toggle-label {
 	z-index: 1;
 
@@ -42,4 +57,27 @@ input {
 	background-size: cover;
 
 	user-select: none;
+}
+
+/* When checked, make toggle the everything to the right of the drawer */
+#drawer-toggle:checked ~ #drawer-toggle-label {
+	height: 100%;
+	width: calc(100% - 300px);
+	background: rgba(255, 255, 255, .8);
+}
+
+/* Move drawer-toggle-label and header to the right 300px */
+#drawer-toggle:checked ~ #drawer-toggle-label,
+#drawer-toogle:checked ~ header {
+	left: 300px;
+}
+
+/* No horizontal movement on #drawer */
+#drawer-toggle:checked ~ #drawer {
+	left: 0px;
+}
+
+/* Move page contents to the right 300px */
+#drawer-toggle:checked ~ #container {
+	margin-left: 300px;
 }
