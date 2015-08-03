@@ -23,12 +23,12 @@
 
 */
 
-/* Hides the actual input for the drawer */
+/* Hides the actual input for the menu */
 input {
 	display: none;
 }
 
-#drawer {
+#menu {
 	z-index: 0;
 
 	position: fixed;
@@ -43,7 +43,7 @@ input {
 }
 
 /* Style the UI element, which is the label for the checkbox */
-#drawer-toggle-label {
+#menu-toggle-label {
 	z-index: 1;
 
 	position: fixed;
@@ -59,25 +59,25 @@ input {
 	user-select: none;
 }
 
-/* When checked, make toggle the everything to the right of the drawer */
-#drawer-toggle:checked ~ #drawer-toggle-label {
+/* When checked, make toggle the everything to the right of the menu */
+#menu-toggle:checked ~ #menu-toggle-label {
 	height: 100%;
 	width: calc(100% - 300px);
 	background: rgba(255, 255, 255, .8);
 }
 
-/* Move drawer-toggle-label and header to the right 300px */
-#drawer-toggle:checked ~ #drawer-toggle-label,
-#drawer-toogle:checked ~ header {
+/* Move menu-toggle-label and header to the right 300px */
+#menu-toggle:checked ~ #menu-toggle-label,
+#menu-toogle:checked ~ header {
 	left: 300px;
 }
 
-/* No horizontal movement on #drawer */
-#drawer-toggle:checked ~ #drawer {
+/* No horizontal movement on #menu */
+#menu-toggle:checked ~ #menu {
 	left: 0px;
 }
 
 /* Move page contents to the right 300px */
-#drawer-toggle:checked ~ #container {
+#menu-toggle:checked ~ #page_content {
 	margin-left: 300px;
 }
