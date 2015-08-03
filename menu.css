@@ -51,7 +51,7 @@ input {
 	height: 2em;
 	width: 2em;
 
-	background-image: url(images/menu.svg);
+	background-image: url(images/menu_light.svg);
 	background-size: cover;
 
 	user-select: none;
