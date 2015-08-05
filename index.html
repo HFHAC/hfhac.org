@@ -41,22 +41,22 @@
 
 <body>
 	<!-- Switch for navigation menu -->
-	<input type="checkbox" id="menu-toggle" name="menu-toggle"/>
-	<label for="menu-toggle" id="menu-toggle-label"><img src="./images/menu_light.svg" id="drawer" width="100%" height="100%"></label>
+	<input type="checkbox" class="menu__toggle" name="menu__toggle"/>
 
 	<!-- Banner -->
 	<header>
+		<span class="drawer"><label class="menu__toggle__label" for="menu-toggle"><img src="./images/menu_dark.svg"></label></span>
 		<img class="banner" src="images/Banner_Long_Color.svg" alt="Habitat for Humanity of Anderson County, TN">
 	</header>
 
 	<!-- Navigation links -->
-	<nav id="menu">
+	<nav class="menu">
 		<ul>
-			<li id="Mission"><a href="mission.html">Mission</a></li>
-			<li id="Donate"><a href="donate.html">Donate</a></li>
-			<li id="ReStore"><a href="restore.html">ReStore</a></li>
-			<li id="Volunteer"><a href="volunteerpaperwork.html">Volunteer</a></li>
-			<li id="Contact"><a href="contactus.html">Contact Us</a></li>
+			<li class="menu__item menu__item--mission"><a href="mission.html">Mission</a></li>
+			<li class="menu__item menu__item--donate"><a href="donate.html">Donate</a></li>
+			<li class="menu__item menu__item--restore"><a href="restore.html">ReStore</a></li>
+			<li class="menu__item menu__item--volunteer"><a href="volunteerpaperwork.html">Volunteer</a></li>
+			<li class="menu__item menu__item--contact"><a href="contactus.html">Contact Us</a></li>
 		</ul>
 	</nav>
 	

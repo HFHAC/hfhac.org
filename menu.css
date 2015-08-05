@@ -46,17 +46,13 @@ input {
 	}
 
 	/* Style the UI element, which is the label for the checkbox */
-	#menu-toggle-label {
+	#menu__toggle__label {
 		z-index: 1;
+		position: absolute;
 
-		position: fixed;
+		height: 100%;
+		width: 100%;
 
-		height: 2em;
-		width: 2em;
-
-/*		background-image: url(images/menu_light.svg);
-		background-size: cover;
-*/
 		user-select: none;
 	}
 
