@@ -35,30 +35,33 @@
 	<meta name="rating" content="general">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="banner.css" type="text/css">
-	<link rel="stylesheet" href="body.css" type="text/css">
-	<link rel="stylesheet" href="header.css" type="text/css">
-	<link rel="stylesheet" href="menu.css" type="text/css">
+	<link rel="stylesheet" href="./css/banner.css" type="text/css">
+	<link rel="stylesheet" href="./css/body.css" type="text/css">
+	<link rel="stylesheet" href="./css/header.css" type="text/css">
+	<link rel="stylesheet" href="./css/drawer.css" type="text/css">
 </head>
 
 <body>
-	<!-- Switch for navigation menu -->
-	<input class="menu__toggle" name="menu-toggle" type="checkbox"/>
+	<!-- Switch for navigation drawer -->
+	<input class="drawer__toggle" name="drawer-toggle" type="checkbox"/>
 
 	<!-- Banner -->
 	<header class="header">
-		<span class="drawer"><label class="menu__toggle__label" for="menu-toggle"><img src="./images/menu_dark.svg"></label></span>
-		<img class="banner" src="images/Banner_Long_Color.svg" alt="Habitat for Humanity of Anderson County, TN">
+		<span class="drawer-toggle__icon">
+			<label class="drawer__toggle__label" for="drawer-toggle"><img class="drawer__toggle__label--img" src="./images/drawer_icon_dark.svg"></label>
+		</span>
+
+		<img class="banner" src="./images/banner_long_color.svg" alt="Habitat for Humanity of Anderson County, TN">
 	</header>
 
 	<!-- Navigation links -->
-	<nav class="menu">
+	<nav class="drawer">
 		<ul>
-			<li class="menu__item menu__item--mission"><a href="mission.html">Mission</a></li>
-			<li class="menu__item menu__item--donate"><a href="donate.html">Donate</a></li>
-			<li class="menu__item menu__item--restore"><a href="restore.html">ReStore</a></li>
-			<li class="menu__item menu__item--volunteer"><a href="volunteerpaperwork.html">Volunteer</a></li>
-			<li class="menu__item menu__item--contact"><a href="contactus.html">Contact Us</a></li>
+			<li class="drawer__item drawer__item--mission"><a href="mission.html">Mission</a></li>
+			<li class="drawer__item drawer__item--donate"><a href="donate.html">Donate</a></li>
+			<li class="drawer__item drawer__item--restore"><a href="restore.html">ReStore</a></li>
+			<li class="drawer__item drawer__item--volunteer"><a href="volunteerpaperwork.html">Volunteer</a></li>
+			<li class="drawer__item drawer__item--contact"><a href="contactus.html">Contact Us</a></li>
 		</ul>
 	</nav>
 	

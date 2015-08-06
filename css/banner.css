@@ -28,4 +28,8 @@
 }
 
 .header .banner {
-	width: calc(100% - 
+	padding: 0.5em;
+
+	max-height: 100%;
+	max-width: calc(100% - 4em)
+}
