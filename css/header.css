@@ -21,7 +21,7 @@
 	z-index: 10;
 
 	width: 100%;
-	height: 6em;
+	height: 4em;
 
 	background-color: #FFFFFF;
 }
@@ -29,8 +29,8 @@
 .header__drawer-toggle__container {
 	position: relative;
 
-	width: 6em;
-	height: 6em;
+	width: 4em;
+	height: 4em;
 
 /*	border: 1px solid black;
  */
@@ -38,8 +38,8 @@
 
 .header__drawer-toggle__padding {
 	position: absolute;
-	width: 3em;
-	height: 3em;
+	width: 2em;
+	height: 2em;
 	padding: 0;
 
 	margin: 0;
