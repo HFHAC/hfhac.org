@@ -1,10 +1,9 @@
-header .drawer {
-	position: relative;
+.header {
+	z-index: 0;
 
-	width: 2em;
-	height: 2em;
+	width: 100%;
+
+	background-color: #9933CC;
+	color: #FFFFFF;
+	text-align: center;
 }	
-
-header .banner {
-	max-width: calc(100% - 
-}

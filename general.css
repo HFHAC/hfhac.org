@@ -45,20 +45,6 @@ body {
 	width: 100%;
 }
 
-header {
-	z-index: 0;
-
-	position: fixed;
-	top: 0;
-	left: 0;
-
-	width: 100%;
-
-	background-color: #9933CC;
-	color: #FFFFFF;
-	text-align: center;
-}
-
 footer {
 	display: table-row;
 	vertical-align: bottom;

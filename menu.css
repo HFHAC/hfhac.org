@@ -29,6 +29,13 @@ input {
 	display: none;
 }
 
+header .drawer {
+	position: relative;
+
+	width: 2em;
+	height: 2em;
+}
+
 /* Mobile */
 @media only screen and (max-width: 539px) {
 	#menu {

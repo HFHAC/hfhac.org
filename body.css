@@ -1,9 +1,4 @@
 /*
- *	banner.css
- *
- *	Define the layout elements of the banner class and subclasses
- */
-/*
  	Copyright: 2015 Habit for Humanity of Anderson County, Tennessee
 
 	This file is part of hfhac.org.
@@ -23,9 +18,8 @@
 
 */
 
-.banner {
-	width: 100%;
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
 }
-
-.header .banner {
-	width: calc(100% - 
