@@ -27,13 +27,12 @@
 }
 
 .header__drawer-toggle__container {
+	display: inline;
 	position: relative;
+	float: left;
 
 	width: 4em;
 	height: 4em;
-
-/*	border: 1px solid black;
- */
 }
 
 .header__drawer-toggle__padding {
@@ -47,7 +46,11 @@
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
+}
 
-/*	border: 1px solid red;
- */
+.header__banner {
+	display: inline;
+	float: left;
+
+	width: calc(100% - 4em);
 }
